@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid Abdelrazk | Telecommunications Student & Data Analyst</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-theme="dark">
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <div class="splash-container">
+            <div class="splash-logo">KA</div>
+            <div class="splash-title">Khalid Abdelrazk</div>
+            <div class="splash-subtitle">Telecommunications Student & Data Analyst</div>
+            <div class="loading-container">
+                <div class="loading-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo">Khalid Abdelrazk</a>
+                <div class="nav-content">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#graduation">Graduation Project</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button class="theme-toggle" onclick="toggleTheme()"></button>
+                    <div class="mobile-menu" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div style="height: 50px;"></div>
+                <div class="profile-image">
+                    <!-- <i class="fas fa-database"></i> -->
+                    <img class="profile-image" src="images/profile.jpg" alt="Khalid Abdelrazk" />
+                </div>
+                <h1>Khalid Abdelrazk</h1>
+                <p>Telecommunications Engineering student & Data Analyst focusing on Python, SQL, Excel, and Power BI.
+                    Currently studying Machine Learning.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="fade-in-up">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Data Analyst with a telecom engineering background, turning raw data into clear insights and
+                    dashboards.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Telecommunications Engineering student at Beni-Suef University with a strong interest in
+                        analytics.
+                        I work with Python, SQL, Excel, and Power BI to clean, analyze, and visualize data for decision
+                        making.</p>
+
+                    <p>I’ve built end-to-end dashboards and reports (Power BI & Excel), performed exploratory analysis,
+                        and
+                        presented findings in a concise, business-friendly way. I’m currently studying Machine Learning
+                        to
+                        expand my analytical toolkit.</p>
+
+                    <p>Beyond tools, I care about clarity and reproducibility: consistent data cleaning, documented
+                        steps, and
+                        visuals that directly answer business questions.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-card scale-in">
+                            <div class="stat-number">3.2</div>
+                            <div class="stat-label">GPA</div>
+                        </div>
+                        <div class="stat-card scale-in">
+                            <div class="stat-number">2026</div>
+                            <div class="stat-label">Graduation Year</div>
+                        </div>
+                        <div class="stat-card scale-in">
+                            <div class="stat-number">Power BI/Tableau</div>
+                            <div class="stat-label">Dashboards</div>
+                        </div>
+                        <div class="stat-card scale-in">
+                            <div class="stat-number">Excel/SQL</div>
+                            <div class="stat-label">Analysis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="fade-in-up">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <p>Practical data analysis with a focus on cleaning, exploration, and visualization</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card fade-in-left">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python for Analysis</h3>
+                    <p>Pandas/NumPy for data wrangling and EDA, Matplotlib for reporting, and Jupyter workflows for
+                        reproducible notebooks.</p>
+                </div>
+                <div class="skill-card fade-in-right">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL & Databases</h3>
+                    <p>Joins, aggregations, window functions, and query optimization to extract and transform data
+                        reliably.</p>
+                </div>
+                <div class="skill-card fade-in-left">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Power BI Dashboards</h3>
+                    <p>Interactive dashboards, DAX measures, data modeling, and clear KPI tracking for business users.
+                    </p>
+                </div>
+                <div class="skill-card fade-in-right">
+                    <div class="skill-icon">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                    <h3>Advanced Excel</h3>
+                    <p>Pivot tables, lookups, advanced formulas, and data cleaning for fast analysis and reporting.</p>
+                </div>
+                <div class="skill-card fade-in-left">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning (In Progress)</h3>
+                    <p>Currently learning ML fundamentals (classification/regression basics) and model evaluation.</p>
+                </div>
+                <div class="skill-card fade-in-right">
+                    <div class="skill-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Teamwork & Collaboration</h3>
+                    <p>Organizing tasks, communicating findings, and collaborating across functions to deliver results.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="fade-in-up">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Selected analytics projects (Power BI, Excel, and Python)</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- IDH Customer Campaign Analysis -->
+                <div class="project-card scale-in">
+                    <div class="project-header">
+                        <h3>IDH Customers Analysis</h3>
+                        <div class="project-type">IDH • Professional • Data Science</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Analyzed customer campaign data through cleaning, segmentation, and tracking performance.
+                            Focused on KPIs such as reach, conversion, and retention to deliver actionable insights.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">EDA</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="project-stat">
+                                <div class="project-stat-number">In Progress</div>
+                                <div class="project-stat-label">Status</div>
+                            </div>
+                            <div class="project-stat">
+                                <div class="project-stat-number"><a href="https://github.com/" target="_blank"
+                                        style="color: aliceblue;">GitHub</a></div>
+                                <div class="project-stat-label">Repository</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COVID-19 (NTI) -->
+                <div class="project-card scale-in">
+                    <div class="project-header">
+                        <h3>COVID-19 Analysis</h3>
+                        <div class="project-type">NTI • Academic • Data Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Conducted analysis on global COVID-19 records to track metrics and patterns.
+                            Delivered insightful dashboards for effective monitoring and reporting.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="project-stat">
+                                <div class="project-stat-number">400K+</div>
+                                <div class="project-stat-label">Records</div>
+                            </div>
+                            <div class="project-stat">
+                                <div class="project-stat-number"><a
+                                        href="https://github.com/KhalidAbdelrazek/Covid-19-Analysis" target="_blank"
+                                        style="color: aliceblue; "">GitHub</a></div>
+                                <div class=" project-stat-label">Repository</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Real Estate Analysis -->
+                <div class="project-card scale-in">
+                    <div class="project-header">
+                        <h3>Real Estate Analysis</h3>
+                        <div class="project-type">Vocat • Power BI • Data Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Built an interactive Power BI report to explore pricing patterns, property types,
+                            and location impacts, supporting decision-making with clear insights.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">Data Modeling</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="project-stat">
+                                <div class="project-stat-number">100K+</div>
+                                <div class="project-stat-label">Records</div>
+                            </div>
+                            <div class="project-stat">
+                                <div class="project-stat-number"><a
+                                        href="https://github.com/KhalidAbdelrazek/Real-Estate-Analysis-Using-Power-Bi"
+                                        target="_blank" style="color: aliceblue;">GitHub</a></div>
+                                <div class=" project-stat-label">Repository</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IMDB Analysis -->
+                <div class="project-card scale-in">
+                    <div class="project-header">
+                        <h3>IMDB Analysis</h3>
+                        <div class="project-type">Vocat • Power BI • Data Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Explored movie ratings, genres, reviews, and revenues to reveal trends and correlations.
+                            Delivered clean visuals in Power BI for quick audience insights.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Data Cleaning</span>
+                            <span class="tech-tag">Visualization</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="project-stat">
+                                <div class="project-stat-number">20K+</div>
+                                <div class="project-stat-label">Records</div>
+                            </div>
+                            <div class="project-stat">
+                                <div class="project-stat-number"><a
+                                        href="https://github.com/KhalidAbdelrazek/IMDB-Analysis-Using-Power-Bi"
+                                        target="_blank" style="color: aliceblue;">GitHub</a></div>
+                                <div class=" project-stat-label">Repository</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bike Buyer (Excel) -->
+                <div class="project-card scale-in">
+                    <div class="project-header">
+                        <h3>Bike Buyer Analysis</h3>
+                        <div class="project-type">NTI • Excel • Data Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Performed demographic and purchasing behavior analysis to identify factors
+                            affecting bike buying decisions using Excel dashboards and pivots.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Pivot Tables</span>
+                            <span class="tech-tag">Dashboards</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="project-stat">
+                                <div class="project-stat-number">30K+</div>
+                                <div class="project-stat-label">Records</div>
+                            </div>
+                            <div class="project-stat">
+                                <div class="project-stat-number"><a
+                                        href="https://github.com/KhalidAbdelrazek/Bike-Buyer-Analysis-using-Excel"
+                                        target="_blank" style="color: aliceblue;">GitHub</a></div>
+                                <div class=" project-stat-label">Repository</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COVID-19 (NTI)
+                <div class="project-card scale-in">
+                    <div class="project-header">
+                        <h3>COVID-19 Analysis (NTI)</h3>
+                        <div class="project-type">Academic • Data Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            Conducted analysis on global COVID-19 records to track metrics and patterns.
+                            Delivered insightful dashboards for effective monitoring and reporting.
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="project-stat">
+                                <div class="project-stat-number">400K+</div>
+                                <div class="project-stat-label">Records</div>
+                            </div>
+                            <div class="project-stat">
+                                <div class="project-stat-number"><a
+                                        href="https://github.com/KhalidAbdelrazek/Covid-19-Analysis" target="_blank"
+                                        style="color: aliceblue; "">GitHub</a></div>
+                                <div class=" project-stat-label">Repository</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+
+        <!-- Graduation Project Section -->
+        <section id="graduation" class="fade-in-up">
+            <div class="section-header">
+                <h2>Graduation Project</h2>
+                <p>Multi-Functional Healthcare Robot (software + integration focus, ongoing)</p>
+            </div>
+            <div class="project-card scale-in" style="max-width: 800px; margin: 0 auto;">
+                <div class="project-header">
+                    <h3>Multi-Functional Healthcare Robot</h3>
+                    <div class="project-type">Team Collaboration • In Progress</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                        Currently developing a healthcare system with a Flutter mobile app, Django backend, and ROS
+                        integration.
+                        The system aims to support patient management and provide interactive healthcare services. Work
+                        is ongoing
+                        with iterative development and feature expansion.
+                    </div>
+
+                    <div style="margin: 20px 0;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 15px;">Key Features (in development):
+                        </h4>
+                        <ul style="color: var(--text-secondary); line-height: 1.8; list-style: none; padding: 0;">
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--primary-color); margin-right: 10px;"></i>
+                                Patient appointment booking & management
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--primary-color); margin-right: 10px;"></i>
+                                Doctor-patient chat
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--primary-color); margin-right: 10px;"></i>
+                                Lab results access
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--primary-color); margin-right: 10px;"></i>
+                                Robot control integration (ROS)
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div style="margin: 20px 0;">
+                        <h4 style="color: var(--primary-color); margin-bottom: 15px;">My Role & Leadership:</h4>
+                        <ul style="color: var(--text-secondary); line-height: 1.8; list-style: none; padding: 0;">
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-user-tie"
+                                    style="color: var(--secondary-color); margin-right: 10px;"></i>
+                                Team Leader: Coordinating cross-functional collaboration (mobile, backend, robotics)
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-mobile-alt"
+                                    style="color: var(--secondary-color); margin-right: 10px;"></i>
+                                Developing the Flutter mobile application and integrating user-facing features
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-robot" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                                Leading robotics integration and ROS communication with the system
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-tasks" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                                Managing task distribution, progress tracking, and milestone reviews
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">ROS</span>
+                        <span class="tech-tag">APIs</span>
+                        <span class="tech-tag">Integration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Education Section -->
+        <section id="education" class="fade-in-up">
+            <div class="section-header">
+                <h2>Education</h2>
+                <p>Academic foundation in telecommunications with a growing focus on analytics</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item rotate-in">
+                    <div class="timeline-date">2022 - 2026</div>
+                    <div class="timeline-title">Bachelor of Engineering - Telecommunications Engineering</div>
+                    <div class="timeline-institution">Beni-Suef University, Beni-Suef</div>
+                    <div class="timeline-description">
+                        Solid grounding in telecom fundamentals with interest in data analytics, reporting, and
+                        practical
+                        projects that connect engineering with business insights (GPA: 3.1).
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="fade-in-up">
+            <div class="section-header">
+                <h2>Courses & Certifications</h2>
+                <p>Progress through professional programs and self-directed learning</p>
+            </div>
+            <div class="timeline">
+                <!-- IDH Internship -->
+                <div class="timeline-item fade-in-left">
+                    <div class="timeline-date">IDH (Integrated Diagnostics Holdings)</div>
+                    <div class="timeline-title">Data Scientist Intern</div>
+                    <div class="timeline-institution">Industry Internship</div>
+                    <div class="timeline-description">
+                        Applied data science techniques on healthcare datasets. Worked on preprocessing,
+                        exploratory data analysis, and machine learning model experimentation to support
+                        diagnostics and reporting.
+                    </div>
+                </div>
+
+                <!-- NTI -->
+                <div class="timeline-item fade-in-right">
+                    <div class="timeline-date">National Telecommunication Institute (NTI)</div>
+                    <div class="timeline-title">Professional Data Analysis Program</div>
+                    <div class="timeline-institution">Ongoing Certification</div>
+                    <div class="timeline-description">
+                        Advanced Excel, SQL, analytics principles, and Power BI visualization for business intelligence.
+                    </div>
+                </div>
+
+                <!-- Vocat -->
+                <div class="timeline-item fade-in-left">
+                    <div class="timeline-date">Vocat</div>
+                    <div class="timeline-title">Data Analysis with Python</div>
+                    <div class="timeline-institution">In Progress</div>
+                    <div class="timeline-description">
+                        Pandas, NumPy, and Matplotlib for data manipulation and visualization. ML fundamentals in
+                        progress.
+                    </div>
+                </div>
+
+                <!-- Excel -->
+                <div class="timeline-item fade-in-right">
+                    <div class="timeline-date">Self-Paced</div>
+                    <div class="timeline-title">Advanced Microsoft Excel for Engineers</div>
+                    <div class="timeline-institution">Professional Development</div>
+                    <div class="timeline-description">
+                        Advanced formulas, pivot tables, and visualization techniques for analytical reporting.
+                    </div>
+                </div>
+
+                <!-- C Programming -->
+                <div class="timeline-item fade-in-left">
+                    <div class="timeline-date">Online Course</div>
+                    <div class="timeline-title">C Programming, Data Structures & Algorithms</div>
+                    <div class="timeline-institution">Self-Directed Learning</div>
+                    <div class="timeline-description">
+                        Core programming concepts and common data structures with a focus on efficiency.
+                    </div>
+                </div>
+
+                <!-- 2B Siebel -->
+                <div class="timeline-item fade-in-right">
+                    <div class="timeline-date">2B Company</div>
+                    <div class="timeline-title">Siebel CRM Systems Training</div>
+                    <div class="timeline-institution">IT Internship Program</div>
+                    <div class="timeline-description">
+                        Exposure to enterprise CRM workflows, configuration, and process optimization.
+                    </div>
+                </div>
+
+                <!-- Route Academy -->
+                <div class="timeline-item fade-in-left">
+                    <div class="timeline-date">Route Academy</div>
+                    <div class="timeline-title">Flutter Mobile App Development</div>
+                    <div class="timeline-institution">Professional Certification</div>
+                    <div class="timeline-description">
+                        Cross-platform development with clean architecture and state management. Built multiple
+                        structured apps.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="fade-in-up">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <p>Open to internships, projects, and collaborations in data analysis</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card scale-in" onclick="window.open('mailto:khalidabdelrazk4@gmail.com', '_blank')">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <a href="mailto:khalidabdelrazk4@gmail.com">khalidabdelrazk4@gmail.com</a>
+                </div>
+                <div class="contact-card scale-in" onclick="window.open('tel:+201015565612', '_blank')">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4>Phone</h4>
+                    <a href="tel:+201015565612">+20 101 556 5612</a>
+                </div>
+                <div class="contact-card scale-in"
+                    onclick="window.open('https://www.linkedin.com/in/khalid-abdelrazk-7719b32b3/', '_blank')">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/khalid-abdelrazk-7719b32b3/" target="_blank">Professional
+                        Profile</a>
+                </div>
+                <div class="contact-card scale-in"
+                    onclick="window.open('https://github.com/khalidabdelrazek', '_blank')">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/khalidabdelrazek" target="_blank">Code Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
